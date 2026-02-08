@@ -1,0 +1,14 @@
+build/
+bin/
+obj/
+
+.cache/
+compile_commands.json
+.clangd/
+
+.DS_Store
+Thumbs.db
+
+*.exe
+*.out
+game

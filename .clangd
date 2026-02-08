@@ -1,0 +1,9 @@
+CompileFlags:
+  Add: [-std=c++20]
+  Compiler: /usr/bin/g++
+
+Style:
+  IndentWidth: 4
+
+Index:
+  Background: Skip

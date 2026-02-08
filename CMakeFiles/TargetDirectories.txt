@@ -1,0 +1,3 @@
+/home/tuka/main/projects/cpp/alks-society/CMakeFiles/game.dir
+/home/tuka/main/projects/cpp/alks-society/CMakeFiles/edit_cache.dir
+/home/tuka/main/projects/cpp/alks-society/CMakeFiles/rebuild_cache.dir
