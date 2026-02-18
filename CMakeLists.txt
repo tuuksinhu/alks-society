@@ -10,6 +10,7 @@ add_executable(game
     src/interface.cpp
     src/player.cpp
     src/screen.cpp
+    src/map.cpp
 )
 
 target_link_libraries(game SFML::Graphics SFML::Window SFML::System SFML::Audio)

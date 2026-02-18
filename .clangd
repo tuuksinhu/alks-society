@@ -3,7 +3,7 @@ CompileFlags:
   Compiler: /usr/bin/g++
 
 Style:
-  IndentWidth: 4
+  Config: "{ IndentWidth: 4, UseTab: Never }"
 
 Index:
   Background: Skip

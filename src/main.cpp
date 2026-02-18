@@ -4,6 +4,7 @@
 
 #include "color.hpp"
 #include "interface.hpp"
+#include "map.hpp"
 #include "player.hpp"
 #include "screen.hpp"
 
@@ -19,6 +20,12 @@ int main() {
         std::cerr << "Failed loading font in: 'res/fonts/ARIAL.TTF'" << std::endl;
         return -1;
     }
+
+    Map gameMap;
+    gameMap.addTileType(0, "res/tileset/tiles/Grass_Middle.png");
+    gameMap.addTileType(1, "res/tileset/tiles/Path_Tile.png");
+
+    gameMap.loadFromFile("res/map.txt", 128.f);
 
     Player player;
     player.setPosition({960.f, 540.f});
@@ -63,6 +70,7 @@ int main() {
                 break;
 
             case GameState::Game:
+                window.draw(gameMap);
                 window.draw(player);
                 break;
 
